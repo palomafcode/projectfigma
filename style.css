@@ -1,10 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Ropa+Sans:ital@0;1&display=swap');
 body {
-    font-family: 'Ropa Sans', sans-serif';
+    font-family: 'Ropa Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #777777;
+    width: 728px;
 }
-.styles {
-    opacity: 0.5;
+
+body > header{
+    padding: 8px 44px;
+    font-size: 18px;
+    line-height: 20px;
+    box-shadow: 1px 1px 1px grey;
+
 }
-#primeira {
-    opacity: 1;
+header > * {
+    display: inline-block;
+    margin: 0;
+}
+body > header > img {
+    float: right;
+    margin-top: 16px;
+}
+#banner {
+    margin: 10px 44px;
+
+}
+#sales {
+    margin: 10pc 44px;
+}
+#sales > article {
+    display: inline-block;
+    width: 40%;
+}
+#sales > article #right-sale {
+    float: right;
+}
+#sales article > footer {
+    padding: 12px;
+    background-color: #EEEEEE;
+}
+#sales span {
+    font-size: 25px;
+    line-height: 27px;
+}
+.right {
+    border-radius: 10.5px;
+    background-color: blue;
+    float: right;
 }
