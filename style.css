@@ -26,7 +26,7 @@ body > header > img {
 
 }
 #sales {
-    margin: 10pc 44px;
+    margin: 10px 44px;
 }
 #sales > article {
     display: inline-block;
@@ -41,10 +41,10 @@ body > header > img {
 }
 #sales span {
     font-size: 25px;
-    line-height: 27px;
+    line-height: 23px;
     position: justify;
-    width: 56px;
-    height: 21px;
+    width: 54px;
+    height: 20px;
     background-color: burlywood;
     border-radius: 10.5px;
 }
@@ -52,10 +52,10 @@ body > header > img {
     opacity: 0.6;
     font-weight: 400;
     font-size: 25px;
-    line-height: 27px;
+    line-height: 25px;
     display: flex;
     align-items: center;
     text-align: center;
     color: #FFFF;
-    text-shadow: 2px 2px 5px black rgba(0, 0, 0)
+    text-shadow: 3px 3px 6px black rgba(0, 0, 0)
 }
