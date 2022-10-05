@@ -12,7 +12,6 @@ body > header{
     font-size: 18px;
     line-height: 20px;
     box-shadow: 1px 1px 1px grey;
-
 }
 header > * {
     display: inline-block;
@@ -43,9 +42,20 @@ body > header > img {
 #sales span {
     font-size: 25px;
     line-height: 27px;
-}
-.right {
+    position: justify;
+    width: 56px;
+    height: 21px;
+    background-color: burlywood;
     border-radius: 10.5px;
-    background-color: blue;
-    float: right;
+}
+#your-style img {
+    opacity: 0.6;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFF;
+    text-shadow: 2px 2px 5px black rgba(0, 0, 0)
 }
