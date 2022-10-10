@@ -169,7 +169,7 @@ footer > #gmaps {
   }
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
+
 @media (min-width: 768px) {
   body {
     max-width: 768px;
@@ -177,33 +177,12 @@ footer > #gmaps {
   }
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
+
 @media (min-width: 992px) {
   body {
     max-width: 992px;
   }
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
 @media (min-width: 1200px) {
 }
-
-/* Seletores por classe */
-/* .styles {
-  opacity: 0.5;
-} */
-
-/* Seletores por ID */
-/* #primeira {
-  opacity: 1;
-} */
-
-/* Seletores por descendência */
-/* #your-style img {
-  opacity: 0.5;
-} */
-
-/* Seletores por child (filhos) */
-/* #your-style > img {
-  opacity: 0.2;
-} */
